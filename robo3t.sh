@@ -27,6 +27,7 @@ rm $NAME
 echo ""
 echo "Creating the link"
 echo ""
+sudo rm /usr/local/bin/
 sudo ln -s $DIR/$FNAME/bin/robo3t /usr/local/bin/
 echo ""
 echo "Creating shortcut"
